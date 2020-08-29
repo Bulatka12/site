@@ -1,0 +1,491 @@
+html, body {
+    padding:0; 
+    margin:0;
+    box-sizing: border-box;
+}
+.box{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;    
+    font-size: 3em; 
+    color: rgb(45, 128, 196);
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 8px;
+
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.3em;
+    color:rgb(12, 6, 6);
+    line-height: 1.4;
+    transition: 0.3s;
+
+    text-decoration: none;
+    border-bottom:1px solid rgba(0, 0, 0, 0.164); 
+
+}
+
+.logo-text:hover{
+    border-bottom:1px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+
+}
+
+.logo-text-citi {
+    margin-right: 60px;
+}
+
+.bode {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bode-title {
+    font-family: 'Oswald', sans-serif; 
+    color: #111;
+    font-size: 3.8em;
+    line-height: 1.2;
+    text-shadow: 0 2px 2px #ccc;
+}
+
+.bude-plun {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.bude-plun-teg {
+
+    color: rgb(45, 128, 196);
+    font-size: 1.7em;
+    text-decoration: none;
+    text-transform: uppercase; 
+
+    transition: 0.3;
+}
+
+.bude-plun-teg:hover{
+    border-bottom: 1px solid  rgb(45, 128, 196);
+}
+
+.nextbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nextbody-button {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nextbody-button-1 {
+    font-family: 'Open Sans', sans-serif; 
+    background-color:#5cb85c;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    padding: 15px 20px 15px 20px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    transition: 0.4s;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    position: relative;
+}
+
+.nextbody-button-1-teg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 60px;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+.nextbody-button-2 {
+    font-family: 'Open Sans', sans-serif; 
+    background-color:rgb(206, 22, 22);
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    padding: 15px 20px 15px 20px;
+
+
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    transition: 0.4s;
+    position: relative;
+
+}
+.nextbody-button-2-teg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    max-height:  60px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.nextbody-button-1:hover {
+    transform: scale(1.2);
+}
+
+.nextbody-button-2:hover {
+    transform: scale(1.2);
+}
+
+.nextbody-img{
+    margin-top:25px;
+}
+
+.bode-text-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bode-text h1{
+    margin:30px auto 0px auto;
+    display: table;
+    
+    color: rgb(45, 128, 196);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif; 
+}
+.bode-text-a {
+    text-align: center;
+}
+
+
+.bode-text h1:hover{
+    border-bottom: 1px solid rgb(255, 221, 68);
+}
+
+.bode-text:last-child{
+    font-size: 18px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+/*  Свободный транспорт  */
+.car-logo h1 {
+    margin:30px auto 0px auto;
+    display: table;
+    
+    color: rgb(45, 128, 196);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif; 
+}
+.car-logo h1:hover{
+    border-bottom: 1px solid rgb(255, 221, 68);
+}
+
+
+.card-box {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+
+
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.car-box-card {
+    box-shadow: 0 0 1em #aaa;
+    /* margin-top: 50px; */
+    margin-top: 50px;
+    width: 350px;
+    min-width: 100px;
+    min-height: 400px;
+
+    transition: 0.4s;
+    position: relative;
+}
+/* крестик для закрытия */
+.car-close {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+}
+.car-box-card:hover {
+    transform: scale(1.1);
+}
+
+.car-box-card:last-child {
+    margin: none;
+}
+.car-box-card-logo {
+    text-align: center;
+    color: rgb(45, 128, 196);
+    font-family: 'Oswald', sans-serif; 
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.car-box-card-img {
+padding: 7px;
+}
+
+.car-box-card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 275px;
+}
+
+.car-box-card-text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif; 
+    color: #333;
+    padding: 6px;
+
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -ms-line-clamp: 3;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    display: -webkit-box;
+    display: box;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+}
+
+/* Попапы */
+.popup {
+    font-family: 'Open Sans', sans-serif; 
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    
+    opacity: 0;
+    visibility: hidden;
+
+    overflow-y: auto;    /*скрол по оси y */
+    overflow-x: hidden;     /*нет скрола по оси x */
+
+    transition:all 0.5s ;
+}
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+/* поле для закрытия */
+.popup-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup-content {
+    border:5px solid rgb(39, 38, 38) ;
+
+    background-color: rgb(241, 235, 235);
+    color: black;
+    max-width: 700px;
+    padding: 25px;
+
+    position: relative;
+}
+
+.popup-close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+.popup-logo {
+    color: rgb(45, 128, 196);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif; 
+
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 0px 0.8em 0px;
+}
+.popup-img {
+    max-width: 600px;
+}
+.popup-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-text {
+    overflow: hidden;
+    max-width: 600px;
+    margin-top: 20px;
+}
+.card-box-header {
+    display: block;
+    overflow: hidden; /*для того чтобы нижний блок не залезал */
+    padding-bottom: 30px;
+}
+.card-box-header-nea-bloog {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+}
+
+
+
+.phone {
+    padding:30px 30px;
+    background:linear-gradient(#39c,#369);
+    max-width: 1100px;
+    margin: 0px auto;
+    box-shadow: 0 0 1em #666;
+    border-radius: 10px;
+}
+.phone-logo {
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.phone-title {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+}
+.phone-button {
+    margin-left: 25%;  
+    margin-top: 10px;  
+    
+}
+.phone a {
+    margin-left: 35%;
+    color: rgba(204, 204, 204, 0.856);
+    text-decoration:none;
+    transition: 0.3s;
+}
+.phone a:hover {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.856);
+
+}
+
+
+.text-input {
+    outline: none;
+    background-color:rgb(231, 231, 231);
+    height: 30px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+
+.phone-button-button {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 15px;
+    font-weight: bold;
+
+    border-radius: 6px;
+    background-color: red;
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 50px;
+    outline: none;
+
+}
+
+.footer {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif; 
+
+    margin-top: 50px;
+    width: 100%;
+    color: #ffffff;
+    background: url(/img/footer-img.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+    background-attachment: fixed;
+    
+}
+
+.footer-block {
+    max-width: 450px;
+    overflow: hidden;
+    margin-left: 15%;
+}
+
+.footer-block h1 {
+    font-size: 24px;
+    border-bottom: 1px solid #ffffff ;
+
+}
+
+.footer-block-ul {
+
+    list-style-type: none;
+    padding-inline-start:0;
+    font-style: normal;
+    line-height: 1.9;
+    font-size: 18px;
+    
+}
+
+.li-phone:hover{
+    display: table;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
+
+
+/* font-family: 'Open Sans', sans-serif; 
+font-family: 'Oswald', sans-serif; */
